@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima da tela */
+    margin: 0;
+    background-color: #3b3535; /* Cor de fundo para visualização */
+}
+.circle {
+    width: 600px; /* Largura do círculo */
+    height: 600px; /* Altura do círculo (mesmo valor para criar um círculo perfeito) */
+    background-color: #071925; /* Cor do círculo */
+    border-radius: 50%; /* Define o círculo com base no valor de width/height */
+    border: 20px solid white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+#horas, #minutos, #segundos{
+    color: white;
+    size: 150px;
+    font-size: 70px;
+}
+#tempo{
+    color: white;
+    display: ruby-text;
+}
